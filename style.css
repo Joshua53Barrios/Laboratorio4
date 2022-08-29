@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background:rgb(182, 123, 190);
+}
+
+canvas {
+  display: block;
+}
+h1,div,
+input {
+    text-align: left;
+    
+}
+
+a {
+    font-size: 25px;
+    
+}
+
+form {
+    font-size: 20px;
+    text-align: left;
+    font-style: oblique;
+}
+
+  p{
+    text-align: left;
+    font-style: italic;
+
+  }
+  h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  canvas {
+    display: block;
+  }

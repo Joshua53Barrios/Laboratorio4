@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formula Cuadratica</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/quicksettings.js"></script>
+    <script src="libraries/p5.gui.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <h1>Formula Cuadrática</h1>
+    <p>Ingrese los datos correspondinetes a las variables A, B y C para calcular la ecuación</p>
+
+    <form>
+        <label for="a"> Ingresa el valor de A </label>
+        <input type="number" name="a">
+        <br>
+        <label for="b"> Ingresa el valor de B </label>
+        <input type="number" name="b">
+        <br>
+        <label for="c"> Ingresa el valor de C </label>
+        <input type="number" name="c">
+        <br><br>
+        <input type="button" value="Calcular" onclick="calcular(this)">
+        <input type="button" value="Borrar" onclick="borrar(this)">
+    </form>
+
+    <h3 id="resultado"></h3>
+  </body>
+</html>
